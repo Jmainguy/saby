@@ -1,0 +1,7 @@
+volumeMounts:
+    - mount:
+      secretName: esl-client-cert
+      mountPath: /etc/certs/
+    - mount:
+      secretName: esl-client-cert1
+      mountPath: /etc/certs/
